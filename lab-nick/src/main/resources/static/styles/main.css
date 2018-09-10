@@ -1,0 +1,12 @@
+body {
+    background-image: url('static/images/fired.jpg');
+}
+
+#main {
+    width: 800px;
+    background-color: black;
+    border: solid white 1px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em;
+}
