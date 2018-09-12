@@ -1,13 +1,13 @@
-package controllers;
+package server.controllers;
 
-import models.MovieCompany;
-import models.TheaterLocation;
+import server.models.MovieCompany;
+import server.models.TheaterLocation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
-import repositories.MovieCompanyRepository;
-import repositories.TheaterLocationRepository;
+import server.repositories.MovieCompanyRepository;
+import server.repositories.TheaterLocationRepository;
 
 import java.util.List;
 

@@ -1,7 +1,7 @@
-package repositories;
+package server.repositories;
 
 
-import models.MovieCompany;
+import server.models.MovieCompany;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
